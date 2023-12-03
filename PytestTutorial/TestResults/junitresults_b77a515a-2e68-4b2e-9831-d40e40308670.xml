@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="1" time="0.285" timestamp="2023-12-03T10:46:09.156847" hostname="AsusROGStrix"><testcase classname="tests.test_my_functions" name="test_add" file="tests\test_my_functions.py" line="3" time="0.002"><failure message="assert 5 == 6">def test_add():
+        result = my_functions.add(1, 4)
+&gt;       assert result == 6
+E       assert 5 == 6
+
+tests\test_my_functions.py:6: AssertionError</failure><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase></testsuite></testsuites>

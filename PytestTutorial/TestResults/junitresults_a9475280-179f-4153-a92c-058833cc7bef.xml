@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="3" skipped="2" tests="17" time="5.256" timestamp="2023-12-03T12:06:28.736057" hostname="AsusROGStrix"><testcase classname="tests.test_circle.TestCircle" name="test_area" file="tests\test_circle.py" line="20" time="0.002"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+Setting up &lt;bound method TestCircle.test_area of &lt;test_circle.TestCircle object at 0x0000022FC1F34D50&gt;&gt;
+Tearing down &lt;bound method TestCircle.test_area of &lt;test_circle.TestCircle object at 0x0000022FC1F34D50&gt;&gt;
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_circle.TestCircle" name="test_not_same_area_rectangle" file="tests\test_circle.py" line="28" time="0.002"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+Setting up &lt;bound method TestCircle.test_not_same_area_rectangle of &lt;test_circle.TestCircle object at 0x0000022FC1F35C50&gt;&gt;
+Tearing down &lt;bound method TestCircle.test_not_same_area_rectangle of &lt;test_circle.TestCircle object at 0x0000022FC1F35C50&gt;&gt;
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_circle.TestCircle" name="test_one" file="tests\test_circle.py" line="14" time="0.002"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+Setting up &lt;bound method TestCircle.test_one of &lt;test_circle.TestCircle object at 0x0000022FC1F34290&gt;&gt;
+Tearing down &lt;bound method TestCircle.test_one of &lt;test_circle.TestCircle object at 0x0000022FC1F34290&gt;&gt;
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_circle.TestCircle" name="test_perimeter" file="tests\test_circle.py" line="23" time="0.001"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+Setting up &lt;bound method TestCircle.test_perimeter of &lt;test_circle.TestCircle object at 0x0000022FC1F354D0&gt;&gt;
+Tearing down &lt;bound method TestCircle.test_perimeter of &lt;test_circle.TestCircle object at 0x0000022FC1F354D0&gt;&gt;
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_circle.TestCircle" name="test_two" file="tests\test_circle.py" line="17" time="0.001"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+Setting up &lt;bound method TestCircle.test_two of &lt;test_circle.TestCircle object at 0x0000022FC1F34650&gt;&gt;
+Tearing down &lt;bound method TestCircle.test_two of &lt;test_circle.TestCircle object at 0x0000022FC1F34650&gt;&gt;
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_my_functions" name="test_add" file="tests\test_my_functions.py" line="26" time="0.001"><skipped type="pytest.skip" message="This feature is currently broken">C:\Users\Paweł Galus\source\repos\PytestTutorial\tests\test_my_functions.py:27: This feature is currently broken</skipped><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_my_functions" name="test_add_strings" file="tests\test_my_functions.py" line="8" time="0.001"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_my_functions" name="test_divide" file="tests\test_my_functions.py" line="12" time="0.001"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_my_functions" name="test_divide_by_zero" file="tests\test_my_functions.py" line="16" time="0.002"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_my_functions" name="test_divide_zero_broken" file="tests\test_my_functions.py" line="30" time="0.002"><skipped type="pytest.xfail" message="We know we cannot divide by zero" /><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_my_functions" name="test_very_slow" file="tests\test_my_functions.py" line="20" time="5.001"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_rectangle" name="test_area" file="tests\test_rectangle.py" line="3" time="0.002"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_rectangle" name="test_not_equal" file="tests\test_rectangle.py" line="9" time="0.001"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_rectangle" name="test_perimeter" file="tests\test_rectangle.py" line="6" time="0.001"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_square" name="test_multiple_square_areas[4-16]" file="tests\test_square.py" line="3" time="0.003"><failure message="TypeError: Shape() takes no arguments">side_length = 4, expected_area = 16
+
+    @pytest.mark.parametrize("side_length, expected_area", [(5, 25), (4, 16), (9, 81)])
+    def test_multiple_square_areas(side_length, expected_area):
+&gt;       assert shapes.Shape(side_length).area() == expected_area
+E       TypeError: Shape() takes no arguments
+
+tests\test_square.py:6: TypeError</failure><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_square" name="test_multiple_square_areas[5-25]" file="tests\test_square.py" line="3" time="0.002"><failure message="TypeError: Shape() takes no arguments">side_length = 5, expected_area = 25
+
+    @pytest.mark.parametrize("side_length, expected_area", [(5, 25), (4, 16), (9, 81)])
+    def test_multiple_square_areas(side_length, expected_area):
+&gt;       assert shapes.Shape(side_length).area() == expected_area
+E       TypeError: Shape() takes no arguments
+
+tests\test_square.py:6: TypeError</failure><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_square" name="test_multiple_square_areas[9-81]" file="tests\test_square.py" line="3" time="0.002"><failure message="TypeError: Shape() takes no arguments">side_length = 9, expected_area = 81
+
+    @pytest.mark.parametrize("side_length, expected_area", [(5, 25), (4, 16), (9, 81)])
+    def test_multiple_square_areas(side_length, expected_area):
+&gt;       assert shapes.Shape(side_length).area() == expected_area
+E       TypeError: Shape() takes no arguments
+
+tests\test_square.py:6: TypeError</failure><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase></testsuite></testsuites>

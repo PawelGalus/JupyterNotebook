@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="3" time="0.236" timestamp="2023-12-03T10:50:55.461938" hostname="AsusROGStrix"><testcase classname="tests.test_my_functions" name="test_add" file="tests\test_my_functions.py" line="4" time="0.001"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_my_functions" name="test_divide" file="tests\test_my_functions.py" line="8" time="0.002"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_my_functions" name="test_divide_by_zero" file="tests\test_my_functions.py" line="12" time="0.002"><failure message="ZeroDivisionError: division by zero">def test_divide_by_zero():
+&gt;       result = my_functions.divide(10, 0)
+
+tests\test_my_functions.py:14: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+number_one = 10, number_two = 0
+
+    def divide(number_one, number_two):
+&gt;       return number_one / number_two
+E       ZeroDivisionError: division by zero
+
+source\my_functions.py:5: ZeroDivisionError</failure><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase></testsuite></testsuites>

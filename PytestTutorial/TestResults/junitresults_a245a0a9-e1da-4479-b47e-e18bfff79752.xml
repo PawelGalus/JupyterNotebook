@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="0" skipped="0" tests="8" time="0.068" timestamp="2023-12-03T11:24:26.486933" hostname="AsusROGStrix"><testcase classname="tests.test_circle.TestCircle" name="test_area" file="tests\test_circle.py" line="20" time="0.002"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+Setting up &lt;bound method TestCircle.test_area of &lt;test_circle.TestCircle object at 0x00000125FC7BD7D0&gt;&gt;
+Tearing down &lt;bound method TestCircle.test_area of &lt;test_circle.TestCircle object at 0x00000125FC7BD7D0&gt;&gt;
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_circle.TestCircle" name="test_one" file="tests\test_circle.py" line="14" time="0.001"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+Setting up &lt;bound method TestCircle.test_one of &lt;test_circle.TestCircle object at 0x00000125FABDB9D0&gt;&gt;
+Tearing down &lt;bound method TestCircle.test_one of &lt;test_circle.TestCircle object at 0x00000125FABDB9D0&gt;&gt;
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_circle.TestCircle" name="test_perimeter" file="tests\test_circle.py" line="23" time="0.001"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+Setting up &lt;bound method TestCircle.test_perimeter of &lt;test_circle.TestCircle object at 0x00000125FC7BDF50&gt;&gt;
+Tearing down &lt;bound method TestCircle.test_perimeter of &lt;test_circle.TestCircle object at 0x00000125FC7BDF50&gt;&gt;
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_circle.TestCircle" name="test_two" file="tests\test_circle.py" line="17" time="0.001"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+Setting up &lt;bound method TestCircle.test_two of &lt;test_circle.TestCircle object at 0x00000125FC7BD0D0&gt;&gt;
+Tearing down &lt;bound method TestCircle.test_two of &lt;test_circle.TestCircle object at 0x00000125FC7BD0D0&gt;&gt;
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_my_functions" name="test_add" file="tests\test_my_functions.py" line="4" time="0.002"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_my_functions" name="test_add_strings" file="tests\test_my_functions.py" line="8" time="0.001"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_my_functions" name="test_divide" file="tests\test_my_functions.py" line="12" time="0.001"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_my_functions" name="test_divide_by_zero" file="tests\test_my_functions.py" line="16" time="0.001"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase></testsuite></testsuites>

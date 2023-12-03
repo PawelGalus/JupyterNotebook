@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="1" time="0.372" timestamp="2023-12-03T10:54:12.086413" hostname="AsusROGStrix"><testcase classname="tests.test_my_functions" name="test_divide_by_zero" file="tests\test_my_functions.py" line="12" time="0.003"><failure message="ValueError">def test_divide_by_zero():
+        with pytest.raises(ZeroDivisionError):
+&gt;           result = my_functions.divide(10, 0)
+
+tests\test_my_functions.py:15: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+number_one = 10, number_two = 0
+
+    def divide(number_one, number_two):
+        if number_two == 0:
+&gt;           raise ValueError
+E           ValueError
+
+source\my_functions.py:6: ValueError</failure><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase></testsuite></testsuites>
